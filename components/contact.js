@@ -6,7 +6,7 @@ export default function ContactForm() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    alert(`Hello, ${name}`);
+    alert(`This field is required ${name}`);
   };
 
   return (
